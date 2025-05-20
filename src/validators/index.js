@@ -24,4 +24,4 @@ const userLoginValidator = () =>{
         .notEmpty().withMessage("Password can not be empty")
     ]
 }
-export {userRegistrationValidator}
+export {userRegistrationValidator, userLoginValidator}
